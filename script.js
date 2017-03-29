@@ -1,5 +1,4 @@
 /*** Created by stasiakprzemyslaw on 27.03.2017.*/
-$(function () {
     var url = 'http://api.icndb.com/jokes/random';
     var button = document.getElementById('get-joke');
     button.addEventListener('click', function(){
@@ -20,6 +19,5 @@ $(function () {
         xhr.send();
     }
 
-});
 
 
